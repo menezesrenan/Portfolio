@@ -1,0 +1,407 @@
+a {
+  text-decoration: none;
+}
+
+html {
+  width: fit-content;
+}
+
+.portfolio-simple {
+  background-color: #f9faff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* width: 100%; */
+}
+
+.portfolio-simple .div {
+  background-color: var(--bg-gray);
+  /* width: 1440px; */
+  /* height: 2991px; */
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolio-simple .footer-icons {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  position: absolute;
+  top: 2809px;
+  left: 624px;
+}
+
+.portfolio-simple .icons {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 24px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.portfolio-simple .img {
+  position: relative;
+  width: 48px;
+  height: 48px;
+}
+
+.portfolio-simple .text-wrapper {
+  position: relative;
+  width: fit-content;
+  font-family: "Nunito-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--font-medium-emphasis);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.portfolio-simple .overlap-group {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  /* width: 100%; */
+  /* width: 1440px; */
+  height: 629px;
+  top: 0;
+  left: 0;
+}
+
+.portfolio-simple .image {
+  position: absolute;
+  width: 720px;
+  height: 629px;
+  top: 0;
+  left: 720px;
+  background-image: url(./img/yellow-bg.svg);
+  background-size: 100% 100%;
+}
+
+.portfolio-simple .image-2 {
+  position: absolute;
+  width: 720px;
+  height: 629px;
+  top: 0;
+  left: 0;
+}
+
+.portfolio-simple .header {
+  position: absolute;
+  width: 1440px;
+  height: 56px;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+}
+
+.portfolio-simple .text-wrapper-2 {
+  position: absolute;
+  top: 11px;
+  left: 120px;
+  font-family: "Comfortaa-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--font-high-emphasis);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 32.4px;
+  white-space: nowrap;
+}
+
+.portfolio-simple .nav {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 48px;
+  position: absolute;
+  top: 14px;
+  left: 1029px;
+}
+
+.portfolio-simple .tab-default {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.portfolio-simple .sobre {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Raleway-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--font-high-emphasis);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.portfolio-simple .intro {
+  display: flex;
+  flex-direction: column;
+  width: 486px;
+  align-items: flex-start;
+  gap: 12px;
+  position: absolute;
+  top: 110px;
+  left: 120px;
+}
+
+.portfolio-simple .UI-UX-designer {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.09px;
+  font-family: "Nunito-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--brand-yellow);
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.portfolio-simple .content {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* gap: 2px; */
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.portfolio-simple .title {
+  position: relative;
+  width: 486px;
+  margin-top: -1px;
+  font-family: var(--title-h1-font-family);
+  font-weight: var(--title-h1-font-weight);
+  color: var(--font-high-emphasis);
+  font-size: var(--title-h1-font-size);
+  letter-spacing: var(--title-h1-letter-spacing);
+  line-height: var(--title-h1-line-height);
+  font-style: var(--title-h1-font-style);
+}
+
+.portfolio-simple .subheadline {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.portfolio-simple .text {
+  width: 520px;
+  margin-top: -25px;
+  font-family: "Nunito-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--font-medium-emphasis);
+  font-size: 24px;
+  line-height: 36px;
+  position: relative;
+  letter-spacing: 0;
+  text-align: justify;
+}
+
+.portfolio-simple .buttons {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 12px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.portfolio-simple .button-primary {
+  background-color: var(--brand-yellow);
+  display: inline-flex;
+  align-items: flex-start;
+  padding: 8px 24px;
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: 8px;
+}
+
+.portfolio-simple .text-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Roboto-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--font-high-emphasis);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 27px;
+  white-space: nowrap;
+}
+
+.portfolio-simple .button-secondary {
+  border: 2px solid;
+  border-color: var(--bg-line);
+  display: inline-flex;
+  align-items: flex-start;
+  padding: 8px 24px;
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: 8px;
+}
+
+.portfolio-simple .text-3 {
+  width: fit-content;
+  margin-top: -2px;
+  font-family: "Roboto-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--font-high-emphasis);
+  font-size: 18px;
+  line-height: 27px;
+  white-space: nowrap;
+  position: relative;
+  letter-spacing: 0;
+}
+
+.portfolio-simple .projects {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  position: absolute;
+  top: 773px;
+  left: 222px;
+}
+
+.portfolio-simple .frame {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+}
+
+.portfolio-simple .text-4 {
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--title-h2-font-family);
+  font-weight: var(--title-h2-font-weight);
+  color: var(--font-high-emphasis);
+  font-size: var(--title-h2-font-size);
+  text-align: center;
+  line-height: var(--title-h2-line-height);
+  white-space: nowrap;
+  position: relative;
+  letter-spacing: var(--title-h2-letter-spacing);
+  font-style: var(--title-h2-font-style);
+}
+
+.portfolio-simple .rectangle {
+  position: relative;
+  width: 100px;
+  height: 4px;
+  background-color: var(--brand-yellow);
+  border-radius: 2px;
+}
+
+.portfolio-simple .project {
+  display: flex;
+  width: 992px;
+  height: 524px;
+  align-items: flex-start;
+  position: relative;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0px 6px 64px #7090b01a;
+}
+
+.portfolio-simple .project-nfo {
+  position: relative;
+  width: 496px;
+  height: 524px;
+  background-color: var(--bg-white);
+}
+
+.portfolio-simple .frame-2 {
+  display: flex;
+  flex-direction: column;
+  width: 407px;
+  align-items: flex-start;
+  gap: 24px;
+  position: relative;
+  top: 146px;
+  left: 50px;
+}
+
+.portfolio-simple .text-5 {
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: "Playfair Display-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--font-high-emphasis);
+  font-size: 40px;
+  line-height: 60px;
+  position: relative;
+  letter-spacing: 0;
+}
+
+.portfolio-simple .p {
+  align-self: stretch;
+  font-family: "Nunito-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--font-medium-emphasis);
+  font-size: 18px;
+  line-height: 27px;
+  position: relative;
+  letter-spacing: 0;
+}
+
+.portfolio-simple .boto-secudrio {
+  display: inline-flex;
+  align-items: flex-start;
+  padding: 8px 24px;
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: 24px;
+  border: 1px solid;
+  border-color: var(--font-high-emphasis);
+}
+
+.portfolio-simple .pexels-elly {
+  position: relative;
+  width: 496px;
+  height: 524px;
+}
+
+.portfolio-simple .project-2 {
+  display: inline-flex;
+  height: 524px;
+  align-items: flex-start;
+  position: relative;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0px 6px 64px #7090b01a;
+}
+
+.portfolio-simple .rectangle-2 {
+  position: relative;
+  width: 496px;
+  height: 524px;
+  object-fit: cover;
+}
+
+.portfolio-simple .frame-3 {
+  display: flex;
+  width: 407px;
+  align-items: flex-start;
+  gap: 24px;
+  top: 160px;
+  left: 50px;
+  flex-direction: column;
+  position: relative;
+}
